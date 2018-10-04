@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DBStock.AddToStock">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGQAACMQAAwEAADAFAACAAgoAAQAAEAAAAgAAAQ=</HashCode>
+      <FileName>AddToStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBStock.CetegoryClass">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>CetegoryClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBStock.DeleteFromStock">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABEAAQCMQCAwAAACIFAACEAAIAAQAAEAAAAgAAAQ=</HashCode>
+      <FileName>DeleteFromStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBStock.MainForm">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQABAEEESgGABtACgCEUCCCIQA0AAQAAAIACoAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBStock.HelperClass">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAQAAAAAAAgAAAAAAAAAAAACBAAAAAAAAAAUAAA=</HashCode>
+      <FileName>HelperClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBStock.HistoryOfChanges">
+    <Position X="12" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAIAAAACAAAAgABACAAAACAAAgAAAAAAgEACAAAAA=</HashCode>
+      <FileName>HistoryOfChanges.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBStock.Login">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAQAACAAAAgAABCQAgASAAAAEAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBStock.OneProduct">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAIAAAQCAAAAAAAAAAAQAAAAEAAAAAAAIAAAACgA=</HashCode>
+      <FileName>OneProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBStock.Settings">
+    <Position X="13.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAogCAAADCAABgAAACAAAASEAAIEAADAFAAAAAAAAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBStock.WorkingWithCategories">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEQAAQAIKEAAFgEAACAAAACAAAAACAAAAAABAAAAAA=</HashCode>
+      <FileName>WorkingWithCategories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBStock.WorkingWithProducts">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMEABAQAACAAAEgEAAqEAgSCAQAAAAQAAhAAAAAAACA=</HashCode>
+      <FileName>WorkingWithProducts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

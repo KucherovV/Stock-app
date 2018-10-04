@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C42224B-8623-4A88-9D59-26089C7F476F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DBStock</RootNamespace>
+    <AssemblyName>DBStock</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>D:\allLabs\Kass\kassa\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>D:\allLabs\Kass\kassa\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>D:\allLabs\Kass\kassa\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="NetLegacySupport.Tuple, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b53845dedb3ed59d, processorArchitecture=MSIL">
+      <HintPath>..\packages\NetLegacySupport.Tuple.1.1.1\lib\net40\NetLegacySupport.Tuple.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.9\bin\plugins\Diagnostics\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddToStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddToStock.Designer.cs">
+      <DependentUpon>AddToStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CetegoryClass.cs" />
+    <Compile Include="DeleteFromStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteFromStock.Designer.cs">
+      <DependentUpon>DeleteFromStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DGVClass.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelperClass.cs" />
+    <Compile Include="HistoryOfChanges.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoryOfChanges.Designer.cs">
+      <DependentUpon>HistoryOfChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OneProduct.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetUp.Designer.cs">
+      <DependentUpon>SetUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkingWithCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkingWithCategories.Designer.cs">
+      <DependentUpon>WorkingWithCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkingWithProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkingWithProducts.Designer.cs">
+      <DependentUpon>WorkingWithProducts.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddToStock.resx">
+      <DependentUpon>AddToStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteFromStock.resx">
+      <DependentUpon>DeleteFromStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryOfChanges.resx">
+      <DependentUpon>HistoryOfChanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetUp.resx">
+      <DependentUpon>SetUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkingWithCategories.resx">
+      <DependentUpon>WorkingWithCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkingWithProducts.resx">
+      <DependentUpon>WorkingWithProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
